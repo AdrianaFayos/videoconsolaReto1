@@ -1,8 +1,9 @@
-body{
+.contenedorPrincipal{
     height: 700px;
     width: 100%;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -322,7 +323,7 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;    
+    align-items: center;   
 }
 
 .botonA{
@@ -408,6 +409,86 @@ p{
     height: auto;
     opacity: 0.4;
 }
+
+/* Botones superiores*/
+
+.botonesSuperiores {
+    height: 1em;
+    width: 62em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.superiorIzquierdo{
+    width: 11em;
+    height: .5em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.superiorCentral{
+    width: 40em;
+    height: 1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.superiorDerecho{
+    width: 11em;
+    height: .5em;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.botonL{
+    width: 6em;
+    height: 5em;
+    background-color: rgb(224, 231, 233);
+    box-shadow: 2px 2px 10px #666;
+    border-radius: 80px 20px;
+} 
+
+.botonR{
+    width: 6em;
+    height: 5em;
+    background-color: rgb(224, 231, 233);
+    box-shadow: 2px 2px 10px #666;
+    border-radius: 20px 80px;
+} 
+
+.botonCentro1{
+    width: 2em;
+    height: .3em;
+    margin-left: 1em;
+    background-color: #96dfe1;
+    border-radius: 1em;
+    box-shadow: 2px 2px 10px #666;
+} 
+.botonCentro2{
+    width: 2em;
+    height: .3em;
+    margin-left: 1em;
+    background-color: #96dfe1;
+    border-radius: 1em;
+    box-shadow: 2px 2px 10px #666;
+} 
+
+/* Estilos con hover : al pasar el raton por encima */
+
+.boton1:hover, .boton2:hover, .boton3:hover, 
+.boton4:hover, .boton5:hover, .botonA:hover, 
+.botonB:hover, .boton7:hover, .boton8:hover, 
+.botonX:hover, .botonY:hover, .botonCentro1:hover,
+ .botonCentro2:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+
+
 
 
 
