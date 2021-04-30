@@ -12,6 +12,7 @@ Para el proyecto deberemos utilizar las siguientes tecnologías:
 - Flexbox ✔️
 
 Fecha de inicio: 28 Abril de 2021.
+<br>
 Fecha máxima de entrega: 2 Mayo de 2021.
 
 ### Instrucciones 🔧
