@@ -11,6 +11,8 @@ Para el proyecto deberemos utilizar las siguientes tecnologías:
 - CSS3 ✔️
 - Flexbox ✔️
 
+Fecha de inicio: 28 Abril de 2021.
+Fecha máxima de entrega: 2 Mayo de 2021.
 
 ### Instrucciones 🔧
 
