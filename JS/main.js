@@ -1,5 +1,5 @@
-let video =document.getElementById('video'); 
+let video = document.getElementById('video'); 
 
-window.reproducir = function () {
+function reproducir () {
     video.play();
 }
