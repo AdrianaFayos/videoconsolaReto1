@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style> 
+        @import url('http://fonts.cdnfonts.com/css/pretendo');
+        
+    </style>
     <title>Videoconsola</title>
 </head>
 <body>
@@ -55,7 +59,7 @@
                 <div class="pantalla1">
                     <div class="pantalla2">
                         <div class="pantallaFinal">
-                            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/3524ba70148279.5e9e1a288e349.png" alt="pantalla">
+                            <video id="video" src="img/All Nintendo Console Startup _ Todos los intros al encender consolas Nintendo (online-video-cutter.com).mp4" type="video/mp4"></video>
                         </div>
                     </div>
                 </div>
@@ -71,18 +75,18 @@
                 <div class="hijo6">
                     <div class="boton6">
                         <div class="botonY">
-                            <p>Y</p>
+                            <p class="letraBoton">Y</p>
                         </div>
                         <div class="botonXB">
                             <div class="botonX">
-                                <p>X</p>
+                                <p class="letraBoton">X</p>
                             </div>
                             <div class="botonB">
-                                <p>B</p>
+                                <p class="letraBoton">B</p>
                             </div>
                         </div>
                         <div class="botonA">
-                            <p>A</p>
+                            <p class="letraBoton">A</p>
                         </div>
                     </div>
                 </div>
@@ -92,12 +96,22 @@
                     </div>
                 </div>
                 <div class="hijo8">
-                    <div class="boton8">
+                    <button class="boton8" id="start" onclick="reproducir()">
                         <img class="botonCasa" src="img/casa.png" alt="casa">
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
+
+        <div class="parrafoStart">
+            <p>Press 
+                <div class="boton8" >
+                    <img class="botonCasa" src="img/casa.png" alt="casa">
+                </div>
+             to START</p>
+        </div>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
