@@ -128,18 +128,46 @@
     justify-content: start;
     align-items: center;
 }
-
 .cruzCentral{
     height: 6em;
     width: 2em;
-    background-color: rgb(224, 231, 233);
-    border-radius: .2em ;
-    box-shadow: 3px 2px 5px rgb(139, 139, 139);
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+} 
+
+.cruzCentralSuperior {
+    height: 2em;
+    width: 2em;
+    background-color: rgb(224, 231, 233);
+    border-radius:.2em .2em 0 0 ;
+    box-shadow: 0px 2px 3px .2px rgb(139, 139, 139);
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: start;
+}
+
+.cruzCentralCentro {
+    height: 2em;
+    width: 2em;
+    background-color: rgb(224, 231, 233);
+
+
+}
+
+.cruzCentralInferior {
+    height: 2em;
+    width: 2em;
+    background-color: rgb(224, 231, 233);
+    border-radius: 0em 0 .2em .2em ;
+    box-shadow: 0px 2px 3px .2px rgb(139, 139, 139);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .cruzDerecha{
@@ -489,15 +517,34 @@ button{
 
 /* Estilos con hover : al pasar el raton por encima */
 
-.boton1:hover, .boton2:hover, .boton3:hover, 
-.boton4:hover, .boton5:hover, .botonA:hover, 
+.boton1:hover, .boton2:hover, .cruzIzquierda:hover,
+.cruzCentralSuperior:hover, .cruzCentralInferior:hover,
+.cruzDerecha:hover, .boton4:hover, .botonA:hover, 
 .botonB:hover, .boton7:hover, #start:hover, 
 .botonX:hover, .botonY:hover {
     cursor: pointer;
-    transform: scale(1.1);
     transition: .2s;
+    box-shadow: inset 2px 2px 5px rgb(163, 162, 162);
+
 }
 
+.boton5:hover .cruz1,
+.boton5:hover .cruz2,
+.boton5:hover .cruz3 {
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: inset 0px 1px 2px rgb(165, 164, 164);
+}
+
+.botonL:hover, .botonR:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.botonCentro1:hover, .botonCentro2:hover {
+    height: .15em;
+    cursor: pointer;
+}
 
 .sombraInterna1:hover {
     -webkit-animation:spin .9s linear infinite;
