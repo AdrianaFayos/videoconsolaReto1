@@ -557,6 +557,8 @@ button{
 
 /* Parrafo inferior START */
 
+@import url('http://fonts.cdnfonts.com/css/pretendo'); 
+
 .parrafoStart {
     height: 5em;
     width: 20em;
